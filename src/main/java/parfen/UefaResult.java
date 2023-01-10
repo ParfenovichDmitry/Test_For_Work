@@ -5,14 +5,14 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class UEFAResult {
+public class UefaResult {
     private String sportEventId;
     private String startDate;
     private String sportName;
     private String competitionName;
     private String competitionId;
     private String seasonName;
-    private List<Competitor> competitor;
+    private List<Competitor> uefaCompetitors;
     private Venue venue;
     private Double probabilityHomeTeamWinner;
     private Double probabilityDraw;
