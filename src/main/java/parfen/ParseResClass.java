@@ -13,7 +13,7 @@ public class ParseResClass {
 
     static {
         try {
-            RESULT = new ParseResClass().parse(new File("BE_data.json"));
+            RESULT = new ParseResClass().parse(new File("src/main/resources/BE_data.json"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

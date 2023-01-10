@@ -16,7 +16,7 @@ import static parfen.ParseResClass.RESULT;
 public class Main implements GetRezults{
 
 
-    public static void main(String[] args) throws IOException, ParseException {
+    public static void main(String[] args) {
 
 
         Scanner sc = new Scanner(System.in);
