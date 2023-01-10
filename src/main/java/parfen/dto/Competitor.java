@@ -1,4 +1,4 @@
-package parfen;
+package parfen.dto;
 
 import lombok.Data;
 
